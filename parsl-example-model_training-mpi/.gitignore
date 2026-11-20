@@ -1,0 +1,32 @@
+# Parsl runtime directories, logs, and submit scripts
+runinfo/
+*runinfo*
+cmd_parsl*
+*parsl*.nodes
+*htex*
+parsl.GlobusComputeEngine*
+
+# HPC / Batch scheduler outputs (Slurm, PBS)
+slurm-*.out
+slurm-*.err
+*.e[0-9]*
+*.o[0-9]*
+
+# Python & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# macOS & IDE files
+.DS_Store
+.vscode/
+.idea/
+*.swp

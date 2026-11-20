@@ -1,0 +1,21 @@
+# Parsl runtime directories and logs
+runinfo/
+*.parsl.log
+parsl.log
+
+# Parsl monitoring SQLite database (if monitoring is enabled)
+monitoring.db*
+
+# Standard Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints (if running workflows in notebooks)
+.ipynb_checkpoints/
+.DS_Store
